@@ -4,6 +4,7 @@ body
     padding: 0;
     background-color: #181C1F;
     color: white;
+    font: 16px/26px D-DIN-Regular,Arial,Verdana,sans-serif;
 }
 
 #header
@@ -29,4 +30,55 @@ body
 .fill-white
 {
     fill: white;
+}
+
+#main-content
+{
+    margin-top: 125px;
+}
+
+.content-left-middle
+{
+    position: absolute;
+    max-width: 420px;
+    text-align: left;
+    width: 50%;
+    left: 50px;
+}
+
+h2
+{
+    font: 16px/26px D-DIN-Regular,Arial,Verdana,sans-serif;
+}
+
+p
+{
+    margin: 2rem auto;
+}
+
+table
+{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table td
+{
+    font: 600 16px/18px D-DIN-Regular,Arial,Verdana,sans-serif;
+    text-align: right;
+    padding: 20px 0;
+    border-bottom: 1pt solid rgba(255,255,255,0.3);
+}
+
+table td:first-child
+{
+    font: 600 14px/18px D-DIN-Bold,Arial,Verdana,sans-serif;
+    text-align: left;
+}
+
+table td span
+{
+    color: #868686;
 }
