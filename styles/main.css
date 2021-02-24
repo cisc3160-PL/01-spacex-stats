@@ -55,6 +55,20 @@ body
     left: 50px;
 }
 
+.content-right-middle
+{
+    position: absolute;
+    max-width: 600px;
+    width: 50%;
+    right: 50px;
+}
+
+.content-right-middle img
+{
+    vertical-align: middle;
+    max-width: 600px;
+}
+
 h2
 {
     font: 16px/26px D-DIN-Regular,Arial,Verdana,sans-serif;
