@@ -18,6 +18,13 @@ body
     height: 100px;
 }
 
+#inner-header
+{
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 #logo
 {
     position: absolute;
@@ -34,7 +41,9 @@ body
 
 #main-content
 {
-    margin-top: 125px;
+    position: relative;
+    max-width: 1400px;
+    margin: 125px auto;
 }
 
 .content-left-middle
